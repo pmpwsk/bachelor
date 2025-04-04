@@ -10,7 +10,7 @@ PG_HOST = os.getenv("PG_HOST", "localhost")
 PG_PORT = os.getenv("PG_PORT", 5434)
 PG_USER = os.getenv("PG_USER", "test")
 PG_PASSWORD = os.getenv("PG_PASSWORD", "123")
-PG_DBNAME = os.getenv("PG_DBNAME", "postgres")
+PG_DBNAME = os.getenv("PG_DBNAME", "test")
 
 def get_connection():
     """Establish and return a PostgreSQL connection."""
