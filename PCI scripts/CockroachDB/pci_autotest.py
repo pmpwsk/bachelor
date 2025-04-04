@@ -8,9 +8,9 @@ from tabulate import tabulate
 # PostgreSQL connection parameters from environment variables or defaults
 PG_HOST = os.getenv("PG_HOST", "10.0.0.10")
 PG_PORT = os.getenv("PG_PORT", 2000)
-PG_USER = os.getenv("PG_USER", "test")
+PG_USER = os.getenv("PG_USER", "pci")
 PG_PASSWORD = os.getenv("PG_PASSWORD", "123")
-PG_DBNAME = os.getenv("PG_DBNAME", "test")
+PG_DBNAME = os.getenv("PG_DBNAME", "pci")
 
 def get_connection():
     """Establish and return a PostgreSQL connection."""
